@@ -1,6 +1,7 @@
 export function createMask (string) {
   let copiedString = string
   const twoDigitRegex = /^[0-9]{1,2}[:.,-]?$/i
+  copiedString = destroyMask(copiedString)
   if (twoDigitRegex.test(copiedString)) {
     return copiedString.replace(/(\d{2})/, '($1)')
   }
