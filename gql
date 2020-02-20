@@ -1,0 +1,51 @@
+gql
+
+1. Types
+
+
+
+
+
+
+QL =>For  Data 
+
+Executing Q => By using Type system => Defined for Data
+
+
+GQL service => defining Types and Fields on those types
+
+
+
+type Query {
+ me: User
+}
+
+type User {
+ name: String,
+ id: ID
+}
+
+
+
+
+GQL service => is running => can send queries => Check the types and fields for query => Executes query
+
+
+
+
+
+Q && Mutations
+
+Fields => gql => is to asking fields(keys) on objects
+
+fields can refer objects
+
+
+Arguments => can pass arguments on objects and fields
+Aliases
+Fragments => To reuse the query part
+Operation name => query(keyword) and its name     Operation Types => query, mutation, subscription
+Variables => 
+
+
+
